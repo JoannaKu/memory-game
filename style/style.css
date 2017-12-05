@@ -20,8 +20,10 @@ p {
 	text-align: center;
 	color: #e9b64a;
 	margin-bottom: 25px;
-	margin-top: 5px;
+	margin-top: 25px;
 	letter-spacing: 2px;
+	padding-left: 200px;
+	padding-right: 200px;
 }
 .board {
 	width: 675px;
@@ -48,4 +50,13 @@ p {
 .score {
 	margin-top: 5px;
 	letter-spacing: 2px;
+}
+
+footer {
+	background: #e9b64a;
+    color: #26282E;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
 }
