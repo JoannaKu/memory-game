@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+body {
+	margin: 0;
+	background-color: #26282E;
+	color: #00c8e6;
+	font-family: 'Lobster', cursive;
+	font-size: 28px;
+}
+h1 {
+	font-size: 64px;
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: 5px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+p {
+	text-align: center;
+	color: #e9b64a;
+	margin-bottom: 25px;
+	margin-top: 5px;
+	letter-spacing: 2px;
+}
+.board {
+	width: 675px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.card {
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	margin: 3px;
+	background: url("../images/picture0.jpeg") center no-repeat; 
+	background-size: cover;
+	border: 4px solid #ffccbc;
+	border-radius: 4px;
+	cursor: pointer;
+	filter: brightness(100%);
+	transition: all .3s ease-in-out;
+}
+.card:hover {
+	filter: brightness(70%);
+}
+.score {
+	margin-top: 5px;
+	letter-spacing: 2px;
+}
